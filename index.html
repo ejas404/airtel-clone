@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airtel Clone</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="navigation-bar.css">
+    <link rel="stylesheet" href="upper-body.css">
+    <link rel="stylesheet" href="middle-body.css">
+    <link rel="stylesheet" href="lower-body.css">
+    <link href="https://fonts.cdnfonts.com/css/tondo" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <!--navtop for top section of navigation bar-->
+        <div class="navtop">
+            <div class="navtop-left">
+                <ul class="navtop-ul">
+                    <li class="navleft1">FOR ME</li>
+                    <li class="navleft">FOR MY BUSINESS</li>
+                    <li class="navleft">FOR INVESTORS</li>
+
+
+                </ul>
+            </div>
+            <div class="navtop-right">
+                <i class="bi bi-grid" id="grid4"></i>Explore Airtel<i class="bi bi-chevron-down" id="down1"></i>
+                <ul class="explore-airtel-list">
+                    <li class="li-top"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="wt-apd-it-ic"><path d="M10.417 20.587c1.152-.407 2.187-1.045 3.222-1.683.991-.617 1.93-1.309 2.81-2.07 2.63-2.25 5.454-6.167 4.276-9.873C19.895 4.345 17.317 3 14.703 3 11.299 3 7.87 4.821 5.318 7.014c-1.287 1.219-3.545 4.267-1.489 5.807 1.64 1.213 3.967.105 5.474-.802 1.712-1.169 3.485-2.382 5.457-3.051.935-.342 2.25-.363 2.752.677.386.769.294 1.983-.231 3.094-.717 1.514-1.948 3.006-3.657 4.435-1.15.99-2.479 1.88-3.926 2.365-1.672.438-.655-1.002-.655-1.002.583-.658 1.263-1.22 1.888-1.835.291-.286.691-.677.667-1.24-.034-.762-.85-1.228-1.585-1.228-1.242 0-2.353 1.088-2.99 2.063-.445.691-1.38 2.45-.47 3.857.62.957 1.968 1.103 3.864.433Z" fill="currentColor"></path></svg><p>Thanks App</p></li>
+                    <li><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="wt-apd-it-ic"><path d="M20.702 5.4c-.149-.08-.372-.161-.446-.161H10.58c-.446 0-.818.405-.818.89 0 .486.372.891.818.891l2.53-.162c.224.486.298.972.373 1.377h-2.68c-.446 0-.744.405-.744.81 0 .08 0 .161.075.242a.747.747 0 0 0 .744.567l2.53-.162v.081c-.446 1.944-3.349 1.782-3.349 1.782H8.127V2H5v19.919h3.126v-6.883h1.116c.074 0 .074 0 .074.081.819 1.377 1.637 2.672 2.456 4.049L13.558 22h3.944l-3.87-6.073c-.223-.405-.52-.81-.744-1.214h.075c.074 0 .149-.081.223-.081.819-.324 1.414-.73 2.01-1.215.892-.89 1.413-2.024 1.562-3.4v-.163l2.605-.162c.297 0 .372-.162.446-.324.075-.162.075-.323 0-.404-.074-.243-.223-.405-.52-.405h-2.53c0-.243 0-.486-.075-.729 0-.324-.075-.567-.15-.89.894-.082 1.713-.082 2.382-.163l1.489-.08a.772.772 0 0 0 .52-.244C21 6.373 21 6.211 21 6.13c-.074-.405-.149-.567-.298-.73Z" fill="currentColor"></path></svg><p>Airtel Payments Bank</p></li>
+                    <li><svg viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="wt-apd-it-ic"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.336 7.333H9.7l3.97-3.983a.492.492 0 0 0 0-.708.5.5 0 0 0-.7 0L9.16 6.458l-2.147-2.15a.5.5 0 0 0-.81.547c.025.06.063.116.11.162L8.62 7.333H4.666a1.29 1.29 0 0 0-1.332 1.242v6.842a1.292 1.292 0 0 0 1.332 1.25h10.67a1.289 1.289 0 0 0 1.331-1.25V8.575a1.292 1.292 0 0 0-1.331-1.242Zm-2.855 2.35-.616.617-1.748 1.75 1.89 1.925a.501.501 0 0 1-.708.708l-1.89-1.925-1.006 1.009a.507.507 0 0 1-.82-.162.492.492 0 0 1 .112-.547l.982-1.008-.699-.7-.374-.375a.5.5 0 0 1 .707-.708l.375.375.699.7 1.79-1.75.615-.617a.5.5 0 1 1 .708.708h-.017Z" fill="currentColor"></path></svg><p>XStream</p></li>
+                    <li class="li-bottom"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="wt-apd-it-ic"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.66 13.007a.298.298 0 0 1-.295.29c-.16 0-.29-.13-.285-.29a8.386 8.386 0 0 1 2.458-5.662 8.38 8.38 0 0 1 5.658-2.46c.16-.006.29.124.29.285 0 .16-.13.29-.29.295a7.773 7.773 0 0 0-5.248 2.29 7.784 7.784 0 0 0-2.288 5.252Zm7.805 7.073c-1.82 0-3.53-.709-4.816-1.996a6.773 6.773 0 0 1-1.995-4.82c0-1.82.709-3.53 1.995-4.818a6.764 6.764 0 0 1 4.816-1.996c1.82 0 3.53.709 4.816 1.996a6.773 6.773 0 0 1 1.995 4.819c0 1.82-.709 3.532-1.995 4.819a6.764 6.764 0 0 1-4.816 1.996ZM8.257 9.054a5.917 5.917 0 0 0-1.743 4.21c0 1.591.619 3.087 1.743 4.212a5.91 5.91 0 0 0 4.208 1.744 5.91 5.91 0 0 0 4.208-1.744 5.919 5.919 0 0 0 1.743-4.211c0-1.59-.619-3.086-1.743-4.211a5.91 5.91 0 0 0-4.208-1.744 5.91 5.91 0 0 0-4.208 1.744Zm.747 7.725a4.912 4.912 0 0 0 3.497 1.45A4.912 4.912 0 0 0 16 16.779a4.919 4.919 0 0 0 1.448-3.5A4.919 4.919 0 0 0 16 9.78 4.912 4.912 0 0 0 12.5 8.33c-1.32 0-2.563.515-3.497 1.45a4.918 4.918 0 0 0-1.448 3.5c0 1.322.514 2.565 1.448 3.5Zm-.868-3.5c0-1.166.454-2.263 1.278-3.088a4.336 4.336 0 0 1 3.087-1.28c1.166 0 2.263.455 3.087 1.28a4.342 4.342 0 0 1 1.279 3.089 4.341 4.341 0 0 1-1.279 3.089 4.336 4.336 0 0 1-3.087 1.28 4.336 4.336 0 0 1-3.087-1.28 4.341 4.341 0 0 1-1.278-3.09Z" fill="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="m16.61 6.345-.862 7.095v-.006a1.4 1.4 0 0 1-.004.077c-.08 1.065-1.326 1.855-2.778 1.762-1.452-.093-2.567-1.028-2.486-2.092.08-1.064 1.326-1.855 2.78-1.762.614.039 1.167.228 1.594.514l.968-7.853 1.07.115c-.033.175.08.363.08.363.17.302.59.598.59.598.08.074.598.367.598.367.055.021.318.187.318.187.264.148.686.505.686.505.263.21.534.567.534.567.16.204.276.436.337.68.056.195.054.4-.004.594-.077.304-.325.628-.325.628-.146.229-.4.434-.4.434-.25.197-.386.122-.386.122.03-.039.192-.4.192-.4.1-.223.168-.578.168-.578.06-.34-.029-.671-.029-.671a1.3 1.3 0 0 0-.435-.638c-.362-.3-.897-.432-.897-.432-.518-.16-1.309-.176-1.309-.176Z" fill="currentColor"></path></svg><p>Wynk</p></li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+        <!--navbottom for bottom section of navigation bar-->
+        <div class="navbottom">
+
+            <div class="navbottomlogo">
+                <img src="images/Airtel_logo_PNG1.png" alt="" class="logo">
+            </div>
+            <div class="navbottomcon" id="nbc1">
+                <p>Airtel Black<i class="fa-solid fa-chevron-down" id="down"></i></p>
+
+                <ul class="airtel-black-list">
+                    <li class="li-top">Pay bill</li>
+                    <li class="li-bottom">View Plans</li>
+                </ul>
+
+            </div>
+            <div class="navbottomcon" id="nbc2">
+                <p>Prepaid<i class="fa-solid fa-chevron-down" id="down"></i></p>
+                <ul class="airtel-prepaid-list">
+                    <li class="li-top">Recharge</li>
+                    <li>New Prepaid SIM</li>
+                    <li>View Plans</li>
+                    <li>International Roaming</li>
+                    <li>Switch Prepaid to Postpaid</li>
+                    <li class="li-bottom">Port to Airtel Prepaid</li>
+                </ul>
+            </div>
+            <div class="navbottomcon" id="nbc3">
+                <p>Postpaid<i class="fa-solid fa-chevron-down" id="down"></i></p>
+                <ul class="airtel-postpaid-list">
+                    <li class="li-top">Pay Bill</li>
+                    <li>Buy New Connection</li>
+                    <li>View Plans</li>
+                    <li>International Roaming</li>
+                    <li>Switch Prepaid to Postpaid</li>
+                    <li>Port to Airtel</li>
+                    <li class="li-bottom">Free Sim Delivery</li>
+                </ul>
+            </div>
+            <div class="navbottomcon" id="nbc4">
+                <p>Broadband<i class="fa-solid fa-chevron-down" id="down"></i></p>
+                <ul class="airtel-broadband-list">
+                    <li class="li-top">Pay Bill / Recharge</li>
+                    <li>Buy New Connection</li>
+                    <li class="li-bottom">View Plans</li>
+                </ul>
+            </div>
+            <div class="navbottomcon" id="nbc5">
+                <p>DTH <i class="fa-solid fa-chevron-down" id="down"></i></p>
+                <ul class="airtel-dth-list">
+                    <li class="li-top">Recharge</li>
+                    <li>Buy New DTH Connection</li>
+                    <li>View Plans</li>
+                    <li>Upgrade Box</li>
+                    <li>Xstream</li>
+                    <li class="li-bottom">Buy Second DTH connection</li>
+                </ul>
+            </div>
+            <div class="navbottomcon" id="nbc6">
+                <p>Bank <i class="fa-solid fa-chevron-down" id="down"></i></p>
+                <ul class="airtel-bank-list">
+                    <li class="li-top">View Account</li>
+                    <li>Get New Account</li>
+                    <li>Add Money</li>
+                    <li class="li-bottom">Know More</li>
+                </ul>
+            </div>
+            <div class="navbottomcon" id="nbc7">
+                <p>Airtel Finance <i class="fa-solid fa-chevron-down" id="down"></i></p>
+                <ul class="airtel-finance-list">
+                    <li class="li-top">Credit Card</li>
+                    <li class="li-bottom">Get Loans</li>
+                </ul>
+            </div>
+            <div class="navbottomcon8" id="nbc8">
+                <i class="fa-regular fa-circle-user" style="color: #ff0000;" id="circleuser"></i>
+                <p>Account </p>
+                <ul class="airtel-account-list">
+                    <li class="li-top"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                            class="wt-header-profiledropdown-icon">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3.161 4.162A2.6 2.6 0 0 1 5 3.4h7A2.6 2.6 0 0 1 14.6 6v2a.6.6 0 1 1-1.2 0V6A1.4 1.4 0 0 0 12 4.6H5A1.4 1.4 0 0 0 3.6 6v12A1.4 1.4 0 0 0 5 19.4h7a1.4 1.4 0 0 0 1.4-1.4v-2a.6.6 0 0 1 1.2 0v2a2.6 2.6 0 0 1-2.6 2.6H5A2.6 2.6 0 0 1 2.4 18V6c0-.69.274-1.35.761-1.838Z"
+                                fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M17.576 8.576a.6.6 0 0 1 .848 0l3 3a.6.6 0 0 1 0 .848l-3 3a.6.6 0 0 1-.848-.848l1.976-1.976H7a.6.6 0 1 1 0-1.2h12.552l-1.976-1.976a.6.6 0 0 1 0-.848Z"
+                                fill="currentColor"></path>
+                        </svg>
+                        <p>Login</p>
+                    </li>
+                    <li class="li-middle"><svg viewBox="0 0 24 24" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg" class="wt-header-profiledropdown-icon">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.915 4.51a7.493 7.493 0 0 0-7.305 5.825.6.6 0 0 1-1.17-.266 8.693 8.693 0 0 1 16.949 0 .6.6 0 0 1-1.17.266 7.493 7.493 0 0 0-7.305-5.825Zm-8.023 8.703a.6.6 0 0 1 .718.452 7.493 7.493 0 0 0 14.609 0 .6.6 0 0 1 1.17.266 8.693 8.693 0 0 1-16.95 0 .6.6 0 0 1 .453-.718Z"
+                                fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M2.08 16.403a.6.6 0 0 1-.163-.833l1.704-2.533a.6.6 0 0 1 .833-.163l2.533 1.704a.6.6 0 0 1-.67.996l-2.035-1.37-1.37 2.036a.6.6 0 0 1-.832.163ZM21.938 8.43a.6.6 0 0 1 .158.834l-1.717 2.516a.6.6 0 0 1-.834.158L17.03 10.22a.6.6 0 0 1 .676-.99l2.021 1.377 1.378-2.02a.6.6 0 0 1 .834-.158ZM9.292 9.123a.6.6 0 0 1 .6-.6h4.045a.6.6 0 1 1 0 1.2h-.882c.182.38.257.807.23 1.224a2.46 2.46 0 0 1-.743 1.62c-.332.319-.76.547-1.272.655l1.95 1.95a.6.6 0 0 1-.849.848l-2.903-2.903a.6.6 0 0 1 .424-1.025h.674c.562 0 .922-.176 1.145-.39.23-.22.356-.52.376-.833.02-.316-.07-.612-.23-.817-.152-.192-.38-.329-.72-.329H9.892a.6.6 0 0 1-.6-.6Z"
+                                fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M9.292 10.874a.6.6 0 0 1 .6-.6h4.045a.6.6 0 1 1 0 1.2H9.892a.6.6 0 0 1-.6-.6Z"
+                                fill="currentColor"></path>
+                        </svg>
+                        <p>Recharge</p>
+                    </li>
+                    <li class="li-bottom"><svg viewBox="0 0 24 24" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg" class="wt-header-profiledropdown-icon">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 3.6a8.4 8.4 0 1 0 0 16.8 8.4 8.4 0 0 0 0-16.8ZM2.4 12a9.6 9.6 0 1 1 19.2 0 9.6 9.6 0 0 1-19.2 0Z"
+                                fill="currentColor"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.047 8.865a1.89 1.89 0 0 0-.857 1.264.6.6 0 0 1-1.18-.215 3.09 3.09 0 0 1 1.44-2.089 3.32 3.32 0 0 1 4.41 1.091 2.751 2.751 0 0 1 .227 2.106 3.592 3.592 0 0 1-1.999 2.036c-.46.239-.593.394-.648.496-.068.124-.09.276-.119.712a.6.6 0 1 1-1.194-.134c.024-.356.052-.773.26-1.153.228-.42.623-.717 1.177-1.002a.578.578 0 0 1 .053-.024 2.394 2.394 0 0 0 1.327-1.3 1.55 1.55 0 0 0-.123-1.136 2.12 2.12 0 0 0-2.774-.652ZM11.722 15.626a.6.6 0 0 1 .6.6v.1a.6.6 0 0 1-1.2 0v-.1a.6.6 0 0 1 .6-.6Z"
+                                fill="currentColor"></path>
+                        </svg>
+                        <p>Help</p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+    <!--the rest body part of the page-->
+    <div class="body">
+        <div class="slide">
+            <div class="slide-left">
+                <div class="heading">
+                    <h4>Wi-Fi like speeds, now on the go.</h4>
+                </div>
+                <div class="description">
+                    <p>With Airtel 5G Plus. Upto 30x faster </p>
+                </div>
+                <div class="button"><input type="button" value="KNOW MORE" class="slide-button"></div>
+                <div class="downarrows">
+                    <i class="bi bi-arrow-left-circle-fill" id="left-arrow"></i>
+                    <p> <span class="one-six">1 / 6</span> </p> <i class="bi bi-arrow-right-circle-fill"
+                        id="right-arrow"></i>
+                </div>
+            </div>
+            <div class="slide-right"></div>
+        </div>
+        <div class="recharge-or-pay-bills">
+            <div class="heading-recharge-or-pay">
+                <h4>Recharge or Pay bills</h4>
+            </div>
+            <div class="four-buttons">
+                <button id="button1-four-button">
+                    <div class="button1">
+                        <div class="button-left"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="wt-badge-pre-i">
+                                <g clip-path="url(#prepaid-filled-icon_svg__a)">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M18.476 6.014 15.4 3.37a1.518 1.518 0 0 0-1-.375H7.41a2.327 2.327 0 0 0-1.655.584A2.255 2.255 0 0 0 5 5.142v13.706c.032.599.303 1.16.755 1.563a2.327 2.327 0 0 0 1.655.584h9.114a2.499 2.499 0 0 0 1.753-.711A2.394 2.394 0 0 0 19 18.558V7.147a1.5 1.5 0 0 0-.524-1.134ZM17 14.114h-.648c-.055.28-.167.546-.331.781a2.1 2.1 0 0 1-.621.587c-.335.208-.712.34-1.105.385l2.143 2.278a.45.45 0 0 1 .107.507.45.45 0 0 1-.107.15.468.468 0 0 1-.514.101.468.468 0 0 1-.153-.102L13 15.857a.513.513 0 0 1-.152-.28.555.555 0 0 1 0-.329.52.52 0 0 1 .238-.234.55.55 0 0 1 .323-.066 2.239 2.239 0 0 0 1.439-.253c.22-.133.386-.339.466-.581h-2.076a.48.48 0 0 1-.337-.138.465.465 0 0 1 0-.663.48.48 0 0 1 .337-.137H15.4a.825.825 0 0 0-.343-.487c-.29-.16-.62-.238-.952-.225h-.915a.48.48 0 0 1-.336-.138.465.465 0 0 1 0-.662.48.48 0 0 1 .337-.138H17a.49.49 0 0 1 .334.14c.089.088.14.205.142.329 0 .124-.05.244-.14.331a.48.48 0 0 1-.336.138h-.857c.122.222.206.463.247.712H17a.48.48 0 0 1 .337.137.465.465 0 0 1 0 .663.48.48 0 0 1-.337.138Z"
+                                        fill="#ffffff"></path>
+                                </g>
+                                <defs>
+                                    <clipPath id="prepaid-filled-icon_svg__a">
+                                        <path fill="#fff" transform="translate(5 2.995)" d="M0 0h14v18H0z"></path>
+                                    </clipPath>
+                                </defs>
+                            </svg></div>
+                        <div class="button-right"> Prepaid </div>
+                    </div>
+                </button>
+                <button>
+                    <div class="button">
+                        <div class="button-left"><svg viewBox="0 0 24 24" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg" class="wt-badge-pre-i">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4.4 4.683c0-1.337 1.21-2.288 2.528-2.288h7.339a1.6 1.6 0 0 1 1.054.396l3.232 2.829a1.6 1.6 0 0 1 .547 1.204v12.171a2.6 2.6 0 0 1-2.6 2.6H6.928c-1.318 0-2.528-.951-2.528-2.287V4.683Zm7.82 6.517a.5.5 0 0 1 .5.5v.305H14v.401a1 1 0 1 0 2 0v-.4h.015c.664 0 1.203.538 1.203 1.202v.802c0 .222-.18.401-.401.401H10.4a.401.401 0 0 1-.401-.4v-.803c0-.664.539-1.203 1.203-1.203h.517V11.7a.5.5 0 0 1 .5-.5Zm-.5.805h-.5v.401a1 1 0 1 0 2 0v-.4h-.5v.394a.5.5 0 1 1-1 0v-.395Zm3.78 0h.5-.5V11.7a.5.5 0 1 0-1 0v.305H14h.5v.395a.5.5 0 0 0 1 0v-.395ZM10 15.612a.4.4 0 0 1 .401-.4h6.416a.4.4 0 0 1 .4.4v2.406c0 .665-.538 1.203-1.202 1.203h-4.812A1.203 1.203 0 0 1 10 18.018v-2.406Z"
+                                    fill="currentColor"></path>
+                            </svg></div>
+                        <div class="button-right"> Postpaid</div>
+                    </div>
+                </button>
+                <button>
+                    <div class="button">
+                        <div class="button-left"><svg viewBox="0 0 24 24" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg" class="wt-badge-pre-i">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M18.561 5.516A8.543 8.543 0 0 0 13.426 3a.572.572 0 0 0-.628.496.57.57 0 0 0 .497.626 7.408 7.408 0 0 1 4.442 2.18 7.73 7.73 0 0 1 2.136 4.546.56.56 0 0 0 .562.495h.066a.572.572 0 0 0 .497-.617 8.851 8.851 0 0 0-2.437-5.21ZM6.117 5.002a.506.506 0 0 0-.43-.178.544.544 0 0 0-.413.196 9.774 9.774 0 0 0-2.25 5.613 9.91 9.91 0 0 0 1.481 5.911c.28.415.593.806.937 1.17l-2.277 2.291a.56.56 0 0 0 0 .795.591.591 0 0 0 .622.116.563.563 0 0 0 .184-.125l2.221-2.264a9.428 9.428 0 0 0 2.999 1.871c1.05.398 2.165.6 3.289.599.91 0 1.817-.132 2.69-.393a9.19 9.19 0 0 0 2.988-1.543.552.552 0 0 0 .225-.393.607.607 0 0 0-.15-.43L6.117 5.001Zm10.205 5.902a3.972 3.972 0 0 0-1.069-2.058 3.806 3.806 0 0 0-2.005-1.094.563.563 0 0 1-.44-.665.57.57 0 0 1 .665-.44c.987.2 1.89.697 2.586 1.423a5.095 5.095 0 0 1 1.368 2.628.559.559 0 0 1-.45.655h-.102a.572.572 0 0 1-.553-.45Z"
+                                    fill="currentColor"></path>
+                            </svg></div>
+                        <div class="button-right"> DTH </div>
+                    </div>
+                </button>
+                <button>
+                    <div class="button">
+                        <div class="button-left"><svg viewBox="0 0 24 24" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg" class="wt-badge-pre-i">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12 7.054a.63.63 0 0 0 .43-.19A5 5 0 0 1 16 5.249a4.987 4.987 0 0 1 3.56 1.615.6.6 0 0 0 1.027-.426.603.603 0 0 0-.177-.427 6.17 6.17 0 0 0-4.43-2.006 6.164 6.164 0 0 0-4.44 2.006.603.603 0 0 0 0 .853.631.631 0 0 0 .46.19Zm7.6 6.932h-3v-3.01a.603.603 0 0 0-.6-.601.6.6 0 0 0-.6.602v3.009h-11A1.398 1.398 0 0 0 3 15.39v3.21a1.406 1.406 0 0 0 1.4 1.405h15.2A1.406 1.406 0 0 0 21 18.6v-3.21a1.398 1.398 0 0 0-1.4-1.404ZM6.31 17.597a.599.599 0 0 1-.6-.602.603.603 0 0 1 .6-.601.6.6 0 0 1 .6.601.603.603 0 0 1-.6.602Zm3 0a.599.599 0 0 1-.6-.602.603.603 0 0 1 .6-.601.6.6 0 0 1 .6.601.603.603 0 0 1-.6.602Zm3 0a.6.6 0 0 1-.6-.602.603.603 0 0 1 .6-.601.6.6 0 0 1 .6.601.603.603 0 0 1-.6.602Zm1.16-9.033a.6.6 0 0 1 .13-.196 3.494 3.494 0 0 1 4.79.04.601.601 0 0 1 .05.853.591.591 0 0 1-.85 0 2.277 2.277 0 0 0-3.15 0 .55.55 0 0 1-.4.16.599.599 0 0 1-.44-.2.6.6 0 0 1-.13-.657Z"
+                                    fill="currentColor"></path>
+                            </svg></div>
+                        <div class="button-right">Fiber</div>
+                    </div>
+                </button>
+                <button>
+                    <div class="button">
+                        <div class="button-left"><svg viewBox="0 0 24 24" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg" class="">
+                                <path
+                                    d="M10.417 20.587c1.152-.407 2.187-1.045 3.222-1.683a22.371 22.371 0 0 0 2.81-2.07c2.63-2.25 5.454-6.167 4.276-9.873C19.895 4.345 17.317 3 14.703 3 11.299 3 7.87 4.821 5.318 7.014c-1.287 1.219-3.545 4.267-1.489 5.807 1.64 1.213 3.967.105 5.474-.802 1.712-1.169 3.485-2.382 5.457-3.051.935-.342 2.25-.363 2.752.677.386.769.294 1.983-.231 3.094-.717 1.514-1.948 3.006-3.657 4.435-1.15.99-2.479 1.88-3.926 2.365-1.672.438-.655-1.002-.655-1.002.583-.658 1.263-1.22 1.888-1.835.291-.286.691-.677.667-1.24-.034-.762-.85-1.228-1.585-1.228-1.242 0-2.353 1.088-2.99 2.063-.445.691-1.38 2.45-.47 3.857.62.957 1.968 1.103 3.864.433Z"
+                                    fill="currentColor"></path>
+                            </svg></div>
+                        <div class="button-right">Airtel Black</div>
+                    </div>
+                </button>
+
+
+
+
+
+            </div>
+            <div class="number-input">
+                <input type="text" value="Enter mobile number" class="enter-number-input">
+            </div>
+
+            <div class="recharge-button">
+                <input type="button" value="RECHARGE" class="recharge-button-black">
+            </div>
+
+        </div>
+
+        <div class="free-ribbon">
+            <div class="handphone">
+                <img src="images/hand-phone-removebg-preview.png" alt="">
+
+            </div>
+            <div class="free-2gb">
+                <p> Free 2 GB data coupons ond selected recharges via Thanks app</p>
+            </div>
+            <div class="get-app">
+                <button>GET APP</button>
+            </div>
+        </div>
+        <div class="new-connection-box">
+            <div class="heading-new-connection">
+                <h4>Buy a new Connection</h4>
+            </div>
+            <div class="icons-new-connection">
+                <div class="icons"><button><svg viewBox="0 0 24 24" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg" class="">
+                            <g clip-path="url(#prepaid-filled-icon_svg__a)">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M18.476 6.014 15.4 3.37a1.518 1.518 0 0 0-1-.375H7.41a2.327 2.327 0 0 0-1.655.584A2.255 2.255 0 0 0 5 5.142v13.706c.032.599.303 1.16.755 1.563a2.327 2.327 0 0 0 1.655.584h9.114a2.499 2.499 0 0 0 1.753-.711A2.394 2.394 0 0 0 19 18.558V7.147a1.5 1.5 0 0 0-.524-1.134ZM17 14.114h-.648c-.055.28-.167.546-.331.781a2.1 2.1 0 0 1-.621.587 2.67 2.67 0 0 1-1.105.385l2.143 2.278a.45.45 0 0 1 .107.507.45.45 0 0 1-.107.15.468.468 0 0 1-.514.101.468.468 0 0 1-.153-.102L13 15.857a.513.513 0 0 1-.152-.28.555.555 0 0 1 0-.329.52.52 0 0 1 .238-.234.55.55 0 0 1 .323-.066 2.239 2.239 0 0 0 1.439-.253c.22-.133.386-.339.466-.581h-2.076a.48.48 0 0 1-.337-.138.465.465 0 0 1 0-.663.48.48 0 0 1 .337-.137H15.4a.825.825 0 0 0-.343-.487c-.29-.16-.62-.238-.952-.225h-.915a.48.48 0 0 1-.336-.138.465.465 0 0 1 0-.662.48.48 0 0 1 .337-.138H17a.49.49 0 0 1 .334.14c.089.088.14.205.142.329a.46.46 0 0 1-.14.331.48.48 0 0 1-.336.138h-.857c.122.222.206.463.247.712H17a.48.48 0 0 1 .337.137.465.465 0 0 1 0 .663.48.48 0 0 1-.337.138Z"
+                                    fill="currentColor"></path>
+                            </g>
+                            <defs>
+                                <clipPath id="prepaid-filled-icon_svg__a">
+                                    <path fill="currentColor" transform="translate(5 2.995)" d="M0 0h14v18H0z"></path>
+                                </clipPath>
+                            </defs>
+                        </svg></i></button>
+                    <p>Prepaid</p>
+                </div>
+                <div class="icons"><button><svg viewBox="0 0 24 24" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg" class="">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M4.4 4.683c0-1.337 1.21-2.288 2.528-2.288h7.339a1.6 1.6 0 0 1 1.054.396l3.232 2.829a1.6 1.6 0 0 1 .547 1.204v12.171a2.6 2.6 0 0 1-2.6 2.6H6.928c-1.318 0-2.528-.951-2.528-2.287V4.683Zm7.82 6.517a.5.5 0 0 1 .5.5v.305H14v.401a1 1 0 1 0 2 0v-.4h.015c.664 0 1.203.538 1.203 1.202v.802c0 .222-.18.401-.401.401H10.4a.401.401 0 0 1-.401-.4v-.803c0-.664.539-1.203 1.203-1.203h.517V11.7a.5.5 0 0 1 .5-.5Zm-.5.805h-.5v.401a1 1 0 1 0 2 0v-.4h-.5v.394a.5.5 0 1 1-1 0v-.395Zm3.78 0h.5-.5V11.7a.5.5 0 1 0-1 0v.305H14h.5v.395a.5.5 0 0 0 1 0v-.395ZM10 15.612a.4.4 0 0 1 .401-.4h6.416a.4.4 0 0 1 .4.4v2.406c0 .665-.538 1.203-1.202 1.203h-4.812A1.203 1.203 0 0 1 10 18.018v-2.406Z"
+                                fill="currentColor"></path>
+                        </svg></button>
+                    <p>Postpaid</p>
+                </div>
+                <div class="icons"><button><svg viewBox="0 0 24 24" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg" class="">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M18.561 5.516A8.543 8.543 0 0 0 13.426 3a.572.572 0 0 0-.628.496.57.57 0 0 0 .497.626 7.408 7.408 0 0 1 4.442 2.18 7.73 7.73 0 0 1 2.136 4.546.56.56 0 0 0 .562.495h.066a.572.572 0 0 0 .497-.617 8.851 8.851 0 0 0-2.437-5.21ZM6.117 5.002a.506.506 0 0 0-.43-.178.544.544 0 0 0-.413.196 9.774 9.774 0 0 0-2.25 5.613 9.91 9.91 0 0 0 1.481 5.911c.28.415.593.806.937 1.17l-2.277 2.291a.56.56 0 0 0 0 .795.591.591 0 0 0 .622.116.563.563 0 0 0 .184-.125l2.221-2.264a9.428 9.428 0 0 0 2.999 1.871c1.05.398 2.165.6 3.289.599.91 0 1.817-.132 2.69-.393a9.19 9.19 0 0 0 2.988-1.543.552.552 0 0 0 .225-.393.607.607 0 0 0-.15-.43L6.117 5.001Zm10.205 5.902a3.972 3.972 0 0 0-1.069-2.058 3.806 3.806 0 0 0-2.005-1.094.563.563 0 0 1-.44-.665.57.57 0 0 1 .665-.44c.987.2 1.89.697 2.586 1.423a5.095 5.095 0 0 1 1.368 2.628.559.559 0 0 1-.45.655h-.102a.572.572 0 0 1-.553-.45Z"
+                                fill="currentColor"></path>
+                        </svg></button>
+                    <p>DTH</p>
+                </div>
+                <div class="icons"><button><svg viewBox="0 0 24 24" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg" class="">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 7.054a.63.63 0 0 0 .43-.19A5 5 0 0 1 16 5.249a4.987 4.987 0 0 1 3.56 1.615.6.6 0 0 0 1.027-.426.603.603 0 0 0-.177-.427 6.17 6.17 0 0 0-4.43-2.006 6.164 6.164 0 0 0-4.44 2.006.603.603 0 0 0 0 .853.631.631 0 0 0 .46.19Zm7.6 6.932h-3v-3.01a.603.603 0 0 0-.6-.601.6.6 0 0 0-.6.602v3.009h-11A1.398 1.398 0 0 0 3 15.39v3.21a1.406 1.406 0 0 0 1.4 1.405h15.2A1.406 1.406 0 0 0 21 18.6v-3.21a1.398 1.398 0 0 0-1.4-1.404ZM6.31 17.597a.599.599 0 0 1-.6-.602.603.603 0 0 1 .6-.601.6.6 0 0 1 .6.601.603.603 0 0 1-.6.602Zm3 0a.599.599 0 0 1-.6-.602.603.603 0 0 1 .6-.601.6.6 0 0 1 .6.601.603.603 0 0 1-.6.602Zm3 0a.6.6 0 0 1-.6-.602.603.603 0 0 1 .6-.601.6.6 0 0 1 .6.601.603.603 0 0 1-.6.602Zm1.16-9.033a.6.6 0 0 1 .13-.196 3.494 3.494 0 0 1 4.79.04.601.601 0 0 1 .05.853.591.591 0 0 1-.85 0 2.277 2.277 0 0 0-3.15 0 .55.55 0 0 1-.4.16.599.599 0 0 1-.44-.2.6.6 0 0 1-.13-.657Z"
+                                fill="currentColor"></path>
+                        </svg></button>
+                    <p>Fiber</p>
+                </div>
+                <div class="icons"><button><svg viewBox="0 0 24 24" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg" class="wt-apd-it-ic">
+                            <path
+                                d="M10.417 20.587c1.152-.407 2.187-1.045 3.222-1.683.991-.617 1.93-1.309 2.81-2.07 2.63-2.25 5.454-6.167 4.276-9.873C19.895 4.345 17.317 3 14.703 3 11.299 3 7.87 4.821 5.318 7.014c-1.287 1.219-3.545 4.267-1.489 5.807 1.64 1.213 3.967.105 5.474-.802 1.712-1.169 3.485-2.382 5.457-3.051.935-.342 2.25-.363 2.752.677.386.769.294 1.983-.231 3.094-.717 1.514-1.948 3.006-3.657 4.435-1.15.99-2.479 1.88-3.926 2.365-1.672.438-.655-1.002-.655-1.002.583-.658 1.263-1.22 1.888-1.835.291-.286.691-.677.667-1.24-.034-.762-.85-1.228-1.585-1.228-1.242 0-2.353 1.088-2.99 2.063-.445.691-1.38 2.45-.47 3.857.62.957 1.968 1.103 3.864.433Z"
+                                fill="currentColor"></path>
+                        </svg></button>
+                    <p>Airtel Black</p>
+                </div>
+                <div class="icons"><button><svg viewBox="0 0 24 24" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg" class="">
+                            <g clip-path="url(#surveillance-filled-icon_svg__a)">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4.29 8h15.45a1.25 1.25 0 0 1 1.29 1.26v2.91a8.91 8.91 0 0 1-9 8.83 8.909 8.909 0 0 1-9-8.83V9.26A1.26 1.26 0 0 1 4.29 8Zm5.235 8.975a3.5 3.5 0 1 0 4.95-4.95 3.5 3.5 0 0 0-4.95 4.95Zm.707-4.243a2.5 2.5 0 1 1 3.536 3.537 2.5 2.5 0 0 1-3.536-3.537Zm.884 2.652c.235.234.553.366.884.366a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0-.884 2.134ZM12 15.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM3 3h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z"
+                                    fill="currentColor"></path>
+                            </g>
+                            <defs>
+                                <clipPath id="surveillance-filled-icon_svg__a">
+                                    <path fill="currentColor" transform="translate(2 2)" d="M0 0h20v20H0z"></path>
+                                </clipPath>
+                            </defs>
+                        </svg></button>
+                    <p>Xsafe</p>
+                </div>
+            </div>
+            <div class="switch-box">
+                <div class="switches1"><img src="images/switch-to-airtel.png" alt=""></div>
+                <div class="switches2">
+                    <h3>Switch to Airtel</h3>
+                    <p>Select a plan and order <span>&#183; </span> Get SIM home-delivered</p>
+                </div>
+                <div class="switches3"><button>GET STARTED</button></div>
+            </div>
+
+        </div>
+        <div class="recommended-box">
+            <h4 class="rec-heading4">Recommended for you</h4>
+            <div class="rec-slide">
+                <div class="rec-card">
+                    <div class="rec-top1">
+
+                    </div>
+                    <div class="rec-bottom">
+                        <div class="rec-tile">
+                            <h5>FIBER</h5>
+                        </div>
+                        <div class="rec-heading">
+                            <h4>Enjoy unlimited wi-fi at <span><i>&#8377</i>999</span></h4>
+                        </div>
+                        <div class="rec-content">
+                            <P>Up to 200 Mbps speed, unlimited calls & OTT apps</P>
+                        </div>
+                        <div class="rec-button"><button>Buy NOw</button><a href="#">Learn More</a></div>
+                    </div>
+                </div>
+                <div class="rec-card">
+                    <div class="rec-top2">
+
+                    </div>
+                    <div class="rec-bottom">
+                        <div class="rec-tile">
+                            <h5>FIBER</h5>
+                        </div>
+                        <div class="rec-heading">
+                            <h4>Enjoy unlimited wi-fi at <span><i>&#8377</i>999</span></h4>
+                        </div>
+                        <div class="rec-content">
+                            <P>Up to 200 Mbps speed, unlimited calls & OTT apps</P>
+                        </div>
+                        <div class="rec-button"><button>Buy NOw</button><a href="#">Learn More</a></div>
+                    </div>
+                </div>
+                <div class="rec-card">
+                    <div class="rec-top3">
+
+                    </div>
+                    <div class="rec-bottom">
+                        <div class="rec-tile">
+                            <h5>FIBER</h5>
+                        </div>
+                        <div class="rec-heading">
+                            <h4>Enjoy unlimited wi-fi at <span><i>&#8377</i>999</span></h4>
+                        </div>
+                        <div class="rec-content">
+                            <P>Up to 200 Mbps speed, unlimited calls & OTT apps</P>
+                        </div>
+                        <div class="rec-button"><button>Buy NOw</button><a href="#">Learn More</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fiber-plan">
+            <div class="fib-head">
+                <h4>Find the best fiber plan for you</h4>
+            </div>
+            <div class="fib-card">
+                <div class="fib-card-1">
+                    <div class="fib-card-top">
+                        <p class="p1">STEP 1 OF 2</p>
+                        <P class="p2">How many devices are you looking to connect to you wi-fi?</P>
+                        <p class="p3">laptops,TVs,Mobiles</p>
+                    </div>
+                    <div class="fib-card-bottom">
+                        <div><button class="fib-button">1-5</button></div>
+                        <div><button class="fib-button">6-10</button></div>
+                        <div> <button class="fib-button">10+</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="business">
+            <div class="head-con">
+                <h4>For your business</h4>
+                <p class="p1">Solutions for medium to large scale enterprises</p>
+                <p class="p2">EXPLORE AIRTEL BUSSINESS ></p>
+            </div>
+            <div class="business-cards">
+                <div class="b-card1">
+                    <div class="b-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 40 40">
+                            <defs></defs>
+                            <path fill="#D5D7D6" fill-rule="evenodd"
+                                d="M28.57 19.765c-.37.361-.773.707-1.21 1.037-2.615 1.976-6.318 3.257-10.492 3.257-4.174 0-7.878-1.28-10.493-3.257a11.754 11.754 0 01-2.186-2.125 12.578 12.578 0 01.53-6.367c1.757 3.296 6.533 5.66 12.149 5.66 5.16 0 9.611-1.996 11.662-4.877.306 1.083.47 2.226.47 3.407 0 1.13-.15 2.224-.43 3.265zM5.683 22.77A12.495 12.495 0 0016.5 29c4.293 0 8.08-2.164 10.331-5.462-2.77 1.583-6.222 2.52-9.963 2.52-4.312 0-8.24-1.246-11.184-3.288zm19.184-8.947c1.463-.962 2.332-2.07 2.684-3.168a12.558 12.558 0 00-3.477-4.1c-1.114 1.517-3.921 2.592-7.207 2.592-3.545 0-6.532-1.251-7.439-2.957a12.568 12.568 0 00-3.424 3.517c.076 1.39.974 2.875 2.862 4.115 1.958 1.287 4.781 2.149 8 2.149 3.22 0 6.043-.862 8.001-2.149zm-2.483-8.354A12.445 12.445 0 0016.5 4c-1.908 0-3.715.427-5.333 1.191a.89.89 0 00.143.23c.175.216.5.494 1.026.77 1.057.554 2.656.956 4.532.956 1.875 0 3.474-.402 4.53-.956.49-.256.804-.513.987-.722z"
+                                clip-rule="evenodd"></path>
+                            <path fill="#E93639" fill-rule="evenodd"
+                                d="M16.495 26.243c-.832-.949-.592-2.432.534-3.002 2.77-1.403 5.318-2.182 8.972-2.182s6.202.779 8.971 2.182c1.126.57 1.366 2.053.534 3.002l-1.42 1.621c-2.308-1.275-4.885-2.022-8.086-2.022-3.258 0-5.616.775-8.05 2.062l-1.455-1.66zm2.472 2.822l5.53 6.311a2 2 0 003.008 0l5.567-6.354c-2.027-1.066-4.277-1.68-7.072-1.68-2.812 0-4.87.62-7.033 1.723z"
+                                clip-rule="evenodd"></path>
+                        </svg></div>
+                    <div class="b-head">
+                        <h5>Airtel Office Internet <i class="bi bi-arrow-right"></i></h5>
+                    </div>
+                    <div class="b-content">
+                        <p>Power your business with broadband that comes with everything you need</p>
+                    </div>
+                </div>
+                <div class="b-card1">
+                    <div class="b-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 40 40">
+                            <defs></defs>
+                            <path fill="#D5D7D6" fill-rule="evenodd"
+                                d="M7.125 4C5.951 4 5 4.93 5 6.077v22.846C5 30.07 5.951 31 7.125 31h12.75C21.049 31 22 30.07 22 28.923V6.077C22 4.93 21.049 4 19.875 4H7.125zM13.5 28.923a1.05 1.05 0 001.063-1.038 1.05 1.05 0 00-1.063-1.039 1.05 1.05 0 00-1.063 1.039 1.05 1.05 0 001.063 1.038z"
+                                clip-rule="evenodd"></path>
+                            <path fill="#E93639" fill-rule="evenodd"
+                                d="M19.444 20a2 2 0 012-2h7.112a2 2 0 012 2v2H33a2 2 0 012 2v10a2 2 0 01-2 2H17a2 2 0 01-2-2V24a2 2 0 012-2h2.444v-2zm2.223 2h6.667v-1.5a.5.5 0 00-.5-.5h-5.667a.5.5 0 00-.5.5V22z"
+                                clip-rule="evenodd"></path>
+                        </svg></div>
+                    <div class="b-head">
+                        <h5>Airtel Corporate Postpaid <i class="bi bi-arrow-right"></i></h5>
+                    </div>
+                    <div class="b-content">
+                        <p>Empower your business with the superfast 4G network</p>
+                    </div>
+                </div>
+                <div class="b-card1">
+                    <div class="b-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 40 40">
+                            <defs></defs>
+                            <g fill="#D5D7D6" style="mix-blend-mode:multiply">
+                                <path
+                                    d="M14 14a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM3 21.7a5.5 5.5 0 015.5-5.5h11a5.5 5.5 0 015.5 5.5v1.925c0 .76-.616 1.375-1.375 1.375H4.375C3.615 25 3 24.384 3 23.625V21.7z">
+                                </path>
+                            </g>
+                            <path fill="#E93639"
+                                d="M23 34.005h5l4.53 2.949c.21.13.48-.03.48-.28L33 33.995h2c1.1 0 2-.9 2-2V24C37 22.9 36.1 22 35 22H23c-1.1 0-2 .9-2 2v7.996c0 1.12.9 2.009 2 2.009z">
+                            </path>
+                        </svg></div>
+                    <div class="b-head">
+                        <h5>Airtel IQ <i class="bi bi-arrow-right"></i></h5>
+                    </div>
+                    <div class="b-content">
+                        <p>World's first network-embedded <br> CPaaS</p>
+                    </div>
+                </div>
+                <div class="b-card1">
+                    <div class="b-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 40 40">
+                            <defs></defs>
+                            <path fill="#D5D7D6"
+                                d="M1.998 25h26.004c.547 0 .998-.452.998-1s-.45-1-.998-1H1.998C1.45 23 1 23.452 1 24c0 .56.45 1 .998 1zM3.794 4h22.412c.44 0 .794.376.794.843v15.314c0 .467-.354.843-.794.843H3.794c-.44 0-.794-.376-.794-.843V4.843C3 4.376 3.354 4 3.794 4z">
+                            </path>
+                            <g fill="#E93639" style="mix-blend-mode:multiply">
+                                <path
+                                    d="M27.024 20c-2.298 0-4.524.39-6.62 1.168a17.458 17.458 0 00-4.52 2.469c-.48.366-.479 1.076-.023 1.474l1.503 1.313c.378.33.939.325 1.338.021a13.056 13.056 0 013.37-1.838 14.27 14.27 0 014.952-.874c3.07 0 5.975.948 8.284 2.68.4.301.96.302 1.335-.03l1.502-1.326c.453-.4.452-1.109-.03-1.472a17.468 17.468 0 00-4.496-2.436A19.267 19.267 0 0027.024 20z">
+                                </path>
+                                <path
+                                    d="M33.286 28.254c.415.35.41.975.031 1.363l-5.548 5.668a1 1 0 01-1.414.015l-3.36-3.29-2.299-2.265c-.387-.381-.402-1.006.006-1.364a9.709 9.709 0 012.444-1.57A9.55 9.55 0 0127.058 26c1.335 0 2.612.27 3.82.8a8.82 8.82 0 012.408 1.454z">
+                                </path>
+                            </g>
+                        </svg></div>
+                    <div class="b-head">
+                        <h5>Dedicated Internet <i class="bi bi-arrow-right"></i></h5>
+                    </div>
+                    <div class="b-content">
+                        <p>Strong and dedicated leased line connectivity for your company</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-list">
+                <div class="list-1">
+
+                    <ul>
+                        <p>Quick Access</p>
+                        <li>Airtel Black Bill Payment</li>
+                        <li>Prepaid Recharge</li>
+                        <li>Postpaid Bill Payment</li>
+                        <li>DTH Recharges</li>
+                        <li>Broadband Payment</li>
+                        <li>Exciting Offers</li>
+                        <li>Personal Loans</li>
+                        <li>Airtel Payments Bank</li>
+                        <li> Airtel Thanks App</li>
+                        <li> Free Sim Delivery</li>
+                        <li>Telecom Tariff</li>
+                        <li> Rights Issue</li>
+                        <li> QIP & FCCB Issue</li>
+                        <li>Terms & Conditions</li>
+                        <li> Airtel Blogs</li>
+                    </ul>
+                </div>
+                <div class="list-2">
+                    <ul>
+                        <p>Help At Hand</p>
+                        <li> Find a store</li>
+                        <li>Check Coverage</li>
+                        <li>Ownership Transfer</li>
+                        <li>Manage Your account</li>
+                        <li>ISP Near Me</li>
+                        <li>Wynk Music</li>
+                        <li>Broadband FAQs</li>
+                        <li>DTH FAQs</li>
+                        <li>Airtel Xstream FAQs</li>
+                        <li>Postpaid FAQs</li>
+                        <li>Stores near me</li>
+                        <li>DTH Consumer Corner</li>
+                    </ul>
+                </div>
+                <div class="list-3">
+                    <ul>
+                        <p>About Airtel</p>
+                        <li> Brand</li>
+                        <li>Career</li>
+                        <li>Partner</li>
+                        <li>Business</li>
+                        <li>About Airtel</li>
+                        <li>Press Release</li>
+                        <li>Investor</li>
+                        <li>Investor Support</li>
+                        <li>Telecom Charter</li>
+                    </ul>
+                </div>
+                <div class="list-4">
+                    <ul>
+                        <p>New Connections</p>
+                        <li> Buy DTH New Connection</li>
+                        <li>Buy Prepaid New Connection</li>
+                        <li>Buy Postpaid New Connection</li>
+                        <li>Buy Fiber New Connection</li>
+                        <li>Buy Airtel Black Plan</li>
+                        <li>Buy Xstream Box</li>
+                        <li>Switch to Airtel</li>
+                        <li>International Roaming</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="footer-mid">
+                <div class="mid1">
+                    <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                        class="wt-one-airtel-icon">
+                        <path
+                            d="M10.417 20.587c1.152-.407 2.187-1.045 3.222-1.683.991-.617 1.93-1.309 2.81-2.07 2.63-2.25 5.454-6.167 4.276-9.873C19.895 4.345 17.317 3 14.703 3 11.299 3 7.87 4.821 5.318 7.014c-1.287 1.219-3.545 4.267-1.489 5.807 1.64 1.213 3.967.105 5.474-.802 1.712-1.169 3.485-2.382 5.457-3.051.935-.342 2.25-.363 2.752.677.386.769.294 1.983-.231 3.094-.717 1.514-1.948 3.006-3.657 4.435-1.15.99-2.479 1.88-3.926 2.365-1.672.438-.655-1.002-.655-1.002.583-.658 1.263-1.22 1.888-1.835.291-.286.691-.677.667-1.24-.034-.762-.85-1.228-1.585-1.228-1.242 0-2.353 1.088-2.99 2.063-.445.691-1.38 2.45-.47 3.857.62.957 1.968 1.103 3.864.433Z"
+                            fill="#eb4f4f"></path>
+                    </svg>
+                </div>
+                <div class="mid2">
+                    <div class="inner-mid1">
+                        <p>Get the app</p>
+                    </div>
+                    <div class="inner-mid2"><svg viewBox="0 0 81 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="wt-sf-icon">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M77.999 24H3a3.009 3.009 0 0 1-3-3V3c0-1.653 1.347-3 3.001-3H78a3.006 3.006 0 0 1 3 3v18c0 1.647-1.349 3-3.001 3Z"
+                                fill="#000"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M77.999.48A2.528 2.528 0 0 1 80.522 3v18a2.523 2.523 0 0 1-2.523 2.52H3A2.528 2.528 0 0 1 .478 21V3A2.523 2.523 0 0 1 3.001.48H78Zm0-.48H3a3.009 3.009 0 0 0-3 3v18c0 1.653 1.347 3 3.001 3H78a3.006 3.006 0 0 0 3-3V3c0-1.647-1.349-3-3.001-3Z"
+                                fill="#A6A6A6"></path>
+                            <path
+                                d="M42.671 7.94c-.54 0-.997-.19-1.357-.565A1.925 1.925 0 0 1 40.765 6c0-.547.185-1.009.549-1.375a1.81 1.81 0 0 1 1.356-.565c.535 0 .99.19 1.357.565.364.378.548.84.548 1.375-.005.547-.19 1.01-.548 1.375-.359.377-.815.565-1.356.565Zm-16.095 0c-.529 0-.988-.188-1.363-.557-.373-.368-.562-.834-.562-1.383s.19-1.014.562-1.382c.368-.37.827-.557 1.363-.557.263 0 .517.052.762.159.24.103.435.243.58.416l.035.043-.404.398-.041-.05c-.228-.272-.534-.405-.938-.405-.36 0-.675.129-.934.383-.26.256-.393.591-.393.997 0 .405.132.74.393.996.26.254.574.383.934.383a1.3 1.3 0 0 0 .96-.383c.149-.15.241-.359.274-.624H26.51v-.56h1.851l.008.051c.013.095.026.192.026.282 0 .516-.155.933-.462 1.242-.348.365-.804.55-1.356.55Zm21.4-.08h-.57l-1.749-2.809.015.506v2.301h-.57V4.14h.65l.019.029 1.643 2.645-.015-.504V4.14h.577v3.72Zm-9.593 0h-.579V4.7h-1.002v-.56h2.582v.56H38.38v3.16h.002Zm-2.052 0h-.577V4.14h.577v3.72Zm-3.241 0h-.577V4.7H31.51v-.56h2.582v.56H33.09v3.16Zm-1.945-.006h-2.211V4.14h2.211v.56h-1.633v1.02h1.474v.554h-1.474v1.02h1.633v.56Zm10.592-.863c.258.258.57.389.934.389.374 0 .68-.128.934-.39.254-.254.382-.587.382-.99 0-.402-.128-.738-.38-.99a1.276 1.276 0 0 0-.934-.39c-.374 0-.68.128-.933.39-.254.254-.382.588-.382.99 0 .403.127.738.379.99Z"
+                                fill="#fff"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M40.712 13.053c-1.409 0-2.55 1.073-2.55 2.553 0 1.466 1.149 2.553 2.55 2.553 1.408 0 2.55-1.08 2.55-2.553 0-1.48-1.142-2.553-2.55-2.553Zm0 4.094c-.77 0-1.434-.64-1.434-1.547 0-.92.665-1.547 1.434-1.547.77 0 1.433.627 1.433 1.547.002.913-.663 1.547-1.433 1.547Zm-5.563-4.094c-1.408 0-2.55 1.073-2.55 2.553 0 1.466 1.15 2.553 2.55 2.553 1.408 0 2.55-1.08 2.55-2.553 0-1.48-1.143-2.553-2.55-2.553Zm0 4.094c-.77 0-1.434-.64-1.434-1.547 0-.92.665-1.547 1.434-1.547.77 0 1.434.627 1.434 1.547 0 .913-.664 1.547-1.434 1.547Zm-6.62-3.314v1.08h2.583c-.079.606-.278 1.054-.584 1.36-.378.38-.962.793-1.992.793-1.587 0-2.828-1.286-2.828-2.88 0-1.594 1.24-2.88 2.828-2.88.857 0 1.481.34 1.944.773l.763-.766c-.643-.62-1.5-1.094-2.701-1.094-2.177 0-4.004 1.781-4.004 3.961 0 2.186 1.825 3.96 4.004 3.96 1.175 0 2.058-.385 2.755-1.113.71-.713.936-1.72.936-2.533 0-.253-.02-.48-.06-.673h-3.645c.002-.002.002.012.002.012Zm27.075.84c-.213-.572-.857-1.626-2.177-1.626-1.309 0-2.396 1.034-2.396 2.553 0 1.433 1.076 2.553 2.523 2.553a2.521 2.521 0 0 0 2.117-1.133l-.863-.58c-.286.426-.684.706-1.249.706-.57 0-.97-.26-1.235-.774l3.4-1.414-.12-.284Zm-3.466.854c-.027-.986.763-1.488 1.328-1.488.445 0 .816.22.943.54l-2.271.948ZM49.377 18h1.116v-7.5h-1.116V18Zm-1.833-4.38h-.04c-.252-.3-.73-.573-1.341-.573-1.269 0-2.437 1.121-2.437 2.56 0 1.434 1.162 2.541 2.437 2.541.603 0 1.089-.274 1.34-.58h.04v.366c0 .974-.518 1.5-1.354 1.5-.684 0-1.108-.494-1.281-.907l-.97.407c.278.673 1.022 1.506 2.25 1.506 1.308 0 2.417-.773 2.417-2.66V13.2H47.55v.42h-.006Zm-1.282 3.527c-.77 0-1.414-.646-1.414-1.54 0-.9.644-1.553 1.414-1.553.763 0 1.355.66 1.355 1.553.007.894-.59 1.54-1.355 1.54Zm14.568-6.646h-2.67V18h1.117v-2.84h1.554c1.235 0 2.45-.9 2.45-2.327s-1.21-2.332-2.451-2.332Zm.032 3.612h-1.587v-2.574h1.587c.837 0 1.309.693 1.309 1.287 0 .588-.478 1.287-1.309 1.287Zm6.892-1.073c-.81 0-1.646.36-1.992 1.146l.99.413c.213-.413.603-.554 1.016-.554.578 0 1.162.348 1.175.967v.08a2.492 2.492 0 0 0-1.162-.288c-1.068 0-2.152.587-2.152 1.686 0 1.007.877 1.654 1.853 1.654.75 0 1.162-.34 1.42-.733h.04v.58h1.076v-2.873c0-1.337-.99-2.078-2.264-2.078Zm-.14 4.107c-.365 0-.876-.18-.876-.64 0-.58.638-.8 1.182-.8.492 0 .724.105 1.016.252a1.346 1.346 0 0 1-1.322 1.188Zm6.329-3.947-1.282 3.253h-.04L71.293 13.2h-1.2l1.992 4.547-1.136 2.527h1.162l3.066-7.074h-1.234ZM63.896 18h1.117v-7.5h-1.117V18Z"
+                                fill="#fff"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6.235 4.52c-.173.187-.273.473-.273.847v13.267c0 .374.1.66.279.84l.046.04 7.403-7.433v-.166L6.28 4.48l-.045.04Z"
+                                fill="url(#google-play-badge-icon_svg__a)"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="m16.153 14.566-2.47-2.48v-.173l2.47-2.48.054.034 2.92 1.667c.836.472.836 1.253 0 1.732l-2.92 1.667-.054.033Z"
+                                fill="url(#google-play-badge-icon_svg__b)"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M16.207 14.533 13.684 12l-7.45 7.48c.273.293.73.326 1.242.04l8.73-4.987Z"
+                                fill="url(#google-play-badge-icon_svg__c)"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="m16.207 9.467-8.731-4.98c-.511-.293-.97-.253-1.241.04L13.684 12l2.523-2.533Z"
+                                fill="url(#google-play-badge-icon_svg__d)"></path>
+                            <path opacity=".2" fill-rule="evenodd" clip-rule="evenodd"
+                                d="m16.153 14.48-8.671 4.946c-.484.28-.916.26-1.195.006l-.046.046.046.04c.279.254.71.275 1.195-.005l8.73-4.98-.06-.054Z"
+                                fill="#000"></path>
+                            <path opacity=".12" fill-rule="evenodd" clip-rule="evenodd"
+                                d="m19.127 12.78-2.982 1.7.054.053 2.92-1.667c.42-.24.625-.553.625-.866-.025.287-.238.56-.617.78Z"
+                                fill="#000"></path>
+                            <path opacity=".25" fill-rule="evenodd" clip-rule="evenodd"
+                                d="m7.476 4.574 11.651 6.646c.379.214.592.494.625.78 0-.313-.206-.627-.625-.866L7.476 4.487c-.836-.48-1.514-.079-1.514.88v.087c0-.96.678-1.354 1.514-.88Z"
+                                fill="#fff"></path>
+                            <defs>
+                                <linearGradient id="google-play-badge-icon_svg__a" x1="13.026" y1="5.224" x2="1.161"
+                                    y2="8.372" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#00A0FF"></stop>
+                                    <stop offset=".007" stop-color="#00A1FF"></stop>
+                                    <stop offset=".26" stop-color="#00BEFF"></stop>
+                                    <stop offset=".512" stop-color="#00D2FF"></stop>
+                                    <stop offset=".76" stop-color="#00DFFF"></stop>
+                                    <stop offset="1" stop-color="#00E3FF"></stop>
+                                </linearGradient>
+                                <linearGradient id="google-play-badge-icon_svg__b" x1="20.217" y1="12" x2="5.759"
+                                    y2="12" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FFE000"></stop>
+                                    <stop offset=".409" stop-color="#FFBD00"></stop>
+                                    <stop offset=".775" stop-color="orange"></stop>
+                                    <stop offset="1" stop-color="#FF9C00"></stop>
+                                </linearGradient>
+                                <linearGradient id="google-play-badge-icon_svg__c" x1="14.835" y1="13.378" x2="5.257"
+                                    y2="29.432" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF3A44"></stop>
+                                    <stop offset="1" stop-color="#C31162"></stop>
+                                </linearGradient>
+                                <linearGradient id="google-play-badge-icon_svg__d" x1="4.359" y1=".107" x2="8.632"
+                                    y2="7.277" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#32A071"></stop>
+                                    <stop offset=".069" stop-color="#2DA771"></stop>
+                                    <stop offset=".476" stop-color="#15CF74"></stop>
+                                    <stop offset=".801" stop-color="#06E775"></stop>
+                                    <stop offset="1" stop-color="#00F076"></stop>
+                                </linearGradient>
+                            </defs>
+                        </svg></div>
+                    <div class="inner-mid3"><svg viewBox="0 0 81 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="wt-sf-icon">
+                            <path
+                                d="M80.463 21.167a2.298 2.298 0 0 1-2.302 2.298H2.84a2.303 2.303 0 0 1-2.305-2.298V2.836A2.304 2.304 0 0 1 2.84.534h75.322a2.302 2.302 0 0 1 2.301 2.302v18.33Z"
+                                fill="#fff"></path>
+                            <path
+                                d="M78.161 24H2.84A2.84 2.84 0 0 1 0 21.167V2.837A2.84 2.84 0 0 1 2.839 0H78.16a2.843 2.843 0 0 1 2.838 2.836v18.33A2.839 2.839 0 0 1 78.161 24Z"
+                                fill="#A6A6A6"></path>
+                            <path
+                                d="M80.463 21.167a2.298 2.298 0 0 1-2.302 2.298H2.84a2.303 2.303 0 0 1-2.305-2.298V2.836A2.304 2.304 0 0 1 2.84.534h75.322a2.302 2.302 0 0 1 2.301 2.302v18.33Z"
+                                fill="#000"></path>
+                            <path
+                                d="M18.087 11.874c-.018-1.935 1.584-2.876 1.657-2.92-.907-1.322-2.313-1.502-2.807-1.517-1.18-.124-2.326.707-2.928.707-.613 0-1.54-.695-2.538-.674-1.285.02-2.487.763-3.146 1.918-1.36 2.354-.346 5.814.958 7.717.652.933 1.414 1.973 2.41 1.936.976-.04 1.34-.62 2.518-.62 1.166 0 1.508.62 2.525.597 1.047-.016 1.706-.936 2.336-1.877.753-1.067 1.056-2.12 1.068-2.174-.024-.008-2.033-.776-2.053-3.093Zm-1.921-5.689c.524-.656.883-1.548.784-2.454-.76.034-1.71.525-2.256 1.167-.484.565-.917 1.492-.805 2.363.853.064 1.729-.43 2.277-1.076Z"
+                                fill="#fff"></path>
+                            <path
+                                d="M78.161 0H37.816L53.62 24H78.16A2.841 2.841 0 0 0 81 21.165V2.836A2.841 2.841 0 0 0 78.161 0Z"
+                                fill="url(#app-store-badge-icon_svg__a)"></path>
+                            <path
+                                d="M32.216 18.908h-1.363l-.747-2.346H27.51l-.71 2.346h-1.328l2.572-7.987h1.589l2.583 7.987Zm-2.335-3.33-.675-2.086c-.072-.213-.206-.715-.403-1.505h-.024c-.08.34-.206.841-.38 1.505l-.663 2.085h2.145Zm8.938.38c0 .979-.266 1.753-.799 2.321-.476.506-1.069.759-1.775.759-.763 0-1.312-.272-1.645-.817v3.022h-1.28V15.04c0-.615-.016-1.246-.048-1.893h1.126l.071.913h.024c.427-.688 1.075-1.031 1.944-1.031.68 0 1.247.268 1.701.805.453.538.68 1.245.68 2.122Zm-1.304.046c0-.56-.126-1.023-.38-1.387a1.311 1.311 0 0 0-1.114-.568c-.316 0-.602.105-.859.314-.257.21-.425.484-.504.824a1.672 1.672 0 0 0-.059.39v.96c0 .418.129.772.386 1.061.256.288.59.433 1 .433.483 0 .858-.187 1.126-.557.27-.372.404-.861.404-1.47Zm7.93-.047c0 .98-.266 1.754-.799 2.322-.477.506-1.07.759-1.776.759-.763 0-1.312-.272-1.645-.817v3.022h-1.28V15.04c0-.615-.016-1.246-.047-1.893h1.125l.072.913h.024c.426-.688 1.074-1.031 1.944-1.031.678 0 1.246.268 1.7.805.453.538.681 1.245.681 2.122Zm-1.305.047c0-.56-.127-1.023-.38-1.387a1.31 1.31 0 0 0-1.113-.568c-.316 0-.603.105-.86.314-.257.21-.425.484-.503.824a1.71 1.71 0 0 0-.06.39v.96c0 .418.129.772.385 1.061.256.288.59.433 1.002.433.483 0 .858-.187 1.126-.557.269-.372.403-.861.403-1.47Zm8.712.663c0 .68-.237 1.233-.71 1.66-.52.465-1.245.699-2.176.699-.86 0-1.549-.166-2.069-.498l.296-1.066a3.561 3.561 0 0 0 1.85.498c.482 0 .857-.11 1.125-.326.268-.217.404-.508.404-.87 0-.325-.112-.597-.333-.818-.221-.221-.587-.427-1.102-.616-1.398-.521-2.099-1.284-2.099-2.288 0-.655.248-1.192.741-1.611.494-.42 1.148-.629 1.962-.629.727 0 1.333.127 1.814.38l-.321 1.043a3.171 3.171 0 0 0-1.535-.367c-.452 0-.806.11-1.06.331a.95.95 0 0 0-.32.724c0 .315.122.577.367.782.213.19.6.395 1.161.616.688.277 1.194.6 1.517.971.327.37.489.834.489 1.385Zm4.243-2.558h-1.41v2.796c0 .711.248 1.066.746 1.066.229 0 .419-.02.569-.06l.035.972c-.252.094-.584.142-.995.142-.506 0-.9-.155-1.186-.463-.284-.309-.427-.825-.427-1.553v-2.903h-.84v-.96h.84v-1.055l1.257-.379v1.434h1.411v.963Zm6.353 1.872c0 .885-.254 1.612-.76 2.18-.528.585-1.232.877-2.109.877-.846 0-1.52-.28-2.021-.84-.502-.562-.753-1.268-.753-2.121 0-.893.26-1.624.776-2.192.518-.57 1.216-.854 2.093-.854.845 0 1.524.281 2.038.842.491.544.736 1.246.736 2.108Zm-1.327.029c0-.528-.114-.98-.343-1.359-.268-.457-.652-.686-1.15-.686-.513 0-.906.229-1.174.686-.229.379-.343.84-.343 1.383 0 .528.114.982.343 1.36.277.457.663.685 1.163.685.49 0 .873-.233 1.15-.697.236-.388.354-.843.354-1.372Zm5.489-1.736a2.227 2.227 0 0 0-.404-.036c-.45 0-.798.17-1.043.51-.213.3-.32.68-.32 1.138v3.022h-1.28v-3.946c.002-.604-.01-1.209-.037-1.813h1.115l.047 1.102h.035c.136-.379.349-.684.64-.913.267-.2.592-.308.926-.308.118 0 .225.008.32.023v1.22Zm5.724 1.482c.003.194-.013.388-.047.58h-3.84c.015.569.2 1.005.557 1.305.324.267.742.402 1.256.402.569 0 1.087-.09 1.554-.272l.2.887c-.545.238-1.188.356-1.93.356-.894 0-1.595-.262-2.106-.787-.509-.525-.764-1.23-.764-2.115 0-.868.237-1.591.712-2.168.497-.616 1.17-.923 2.014-.923.83 0 1.46.307 1.886.923.338.488.508 1.093.508 1.811Zm-1.22-.332a1.732 1.732 0 0 0-.25-.984c-.22-.356-.562-.534-1.019-.534-.418 0-.759.173-1.018.521a1.91 1.91 0 0 0-.38.995l2.666.002ZM27.141 8.097c-.356 0-.664-.018-.92-.047V4.189c.358-.056.72-.083 1.084-.082 1.467 0 2.143.722 2.143 1.899 0 1.357-.798 2.09-2.307 2.09Zm.215-3.495c-.198 0-.367.012-.507.04v2.936c.076.012.221.018.426.018.961 0 1.509-.548 1.509-1.573 0-.914-.495-1.42-1.428-1.42Zm4.199 3.524c-.827 0-1.363-.617-1.363-1.456 0-.874.547-1.497 1.41-1.497.815 0 1.363.589 1.363 1.451 0 .885-.565 1.502-1.41 1.502Zm.024-2.493c-.454 0-.746.425-.746 1.02 0 .582.298 1.007.74 1.007s.74-.454.74-1.02c0-.576-.292-1.007-.734-1.007Zm6.103-.401-.885 2.83h-.577l-.367-1.23a9.324 9.324 0 0 1-.227-.913h-.012a6.129 6.129 0 0 1-.227.914l-.39 1.229h-.583l-.834-2.83h.647l.32 1.345c.076.32.14.623.193.909h.012c.046-.238.121-.536.232-.903l.403-1.35h.512l.385 1.321c.093.32.169.635.228.932h.017c.04-.29.105-.6.192-.932l.344-1.322h.617Zm3.26 2.83h-.629V6.437c0-.5-.192-.752-.57-.752-.374 0-.63.32-.63.694v1.683h-.63V6.041c0-.25-.005-.519-.023-.81h.554l.03.437h.017c.169-.303.512-.495.897-.495.595 0 .985.455.985 1.194v1.695Zm1.735 0h-.63v-4.13h.63v4.13Zm2.294.064c-.827 0-1.363-.617-1.363-1.456 0-.874.547-1.497 1.41-1.497.815 0 1.362.589 1.362 1.451.001.885-.564 1.502-1.41 1.502Zm.023-2.493c-.454 0-.745.425-.745 1.02 0 .582.297 1.007.739 1.007.443 0 .74-.454.74-1.02 0-.576-.29-1.007-.734-1.007Zm3.867 2.429-.046-.326H48.8c-.193.262-.473.39-.828.39-.507 0-.868-.355-.868-.833 0-.698.606-1.06 1.655-1.06v-.052c0-.373-.198-.56-.588-.56-.28 0-.524.07-.74.21l-.127-.413c.261-.163.588-.245.972-.245.74 0 1.113.39 1.113 1.171v1.043c0 .285.012.507.04.676l-.567-.001Zm-.086-1.41c-.7 0-1.05.17-1.05.571 0 .297.18.442.432.442.32 0 .618-.244.618-.576v-.437Zm3.668 1.41-.03-.454h-.017c-.18.343-.485.518-.91.518-.682 0-1.187-.6-1.187-1.444 0-.886.524-1.51 1.24-1.51.378 0 .647.129.798.386h.012V3.933h.63v3.366c0 .274.007.53.024.763h-.56Zm-.093-1.665c0-.397-.263-.734-.663-.734-.467 0-.752.413-.752.995 0 .571.296.962.74.962.395 0 .675-.344.675-.752v-.471Zm4.622 1.73c-.827 0-1.363-.618-1.363-1.457 0-.874.548-1.497 1.41-1.497.816 0 1.363.589 1.363 1.451 0 .885-.564 1.502-1.41 1.502Zm.023-2.494c-.453 0-.745.425-.745 1.02 0 .582.298 1.007.74 1.007s.739-.454.739-1.02c.001-.576-.29-1.007-.734-1.007Zm4.77 2.429h-.63V6.437c0-.5-.191-.752-.57-.752-.373 0-.629.32-.629.694v1.683h-.63V6.041c0-.25-.005-.519-.023-.81h.554l.03.437h.017c.168-.303.512-.495.897-.495.594 0 .985.454.985 1.194v1.695ZM66 5.703h-.693v1.375c0 .35.122.524.367.524.11 0 .204-.012.279-.03l.017.479c-.122.046-.285.07-.488.07-.496 0-.792-.274-.792-.99V5.703h-.413v-.471h.413v-.519l.617-.187v.705H66v.472Zm3.33 2.359h-.628V6.449c0-.507-.192-.763-.571-.763-.326 0-.63.221-.63.67v1.706h-.629v-4.13h.629v1.701h.013a.955.955 0 0 1 .85-.46c.6 0 .966.466.966 1.206v1.683Zm3.412-1.264h-1.888c.012.536.367.838.892.838.28 0 .536-.046.763-.133l.098.437a2.364 2.364 0 0 1-.95.174c-.885 0-1.409-.56-1.409-1.426 0-.868.537-1.52 1.339-1.52.723 0 1.177.535 1.177 1.345.004.096-.003.191-.022.285Zm-.577-.448c0-.437-.22-.746-.622-.746-.362 0-.647.315-.688.746h1.31Z"
+                                fill="#fff"></path>
+                            <defs>
+                                <linearGradient id="app-store-badge-icon_svg__a" x1="59.407" y1="24.064" x2="59.407"
+                                    y2="-62.492" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#1A1A1A" stop-opacity=".1"></stop>
+                                    <stop offset=".123" stop-color="#212121" stop-opacity=".151"></stop>
+                                    <stop offset=".308" stop-color="#353535" stop-opacity=".227"></stop>
+                                    <stop offset=".532" stop-color="#575757" stop-opacity=".318"></stop>
+                                    <stop offset=".783" stop-color="#858585" stop-opacity=".421"></stop>
+                                    <stop offset="1" stop-color="#B3B3B3" stop-opacity=".51"></stop>
+                                </linearGradient>
+                            </defs>
+                        </svg></div>
+                </div>
+                <div class="mid3">
+                    <div class="mid3-inner1">Follow us on</div>
+                    <div class="mid3-inner2">
+                        <div class="social-icons1"><svg viewBox="0 0 6 12" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M5.389 6.278H3.805v5.099H1.457v-5.1H.34V4.284h1.117V2.992c0-.924.438-2.37 2.37-2.37l1.74.008v1.936h-1.26c-.208 0-.499.104-.499.544v1.176h1.79L5.39 6.28l-.002-.002Z"
+                                    fill="currentColor"></path>
+                            </svg></div>
+                        <div class="social-icons"><svg viewBox="0 0 11 10" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.007 6.282V9.76H7.99V6.514c0-.815-.29-1.371-1.023-1.371-.558 0-.89.375-1.034.737-.054.13-.068.31-.068.491v3.39H3.846s.027-5.498 0-6.069h2.019v.861l-.015.02h.015v-.02c.268-.413.747-1.003 1.818-1.003 1.328 0 2.324.868 2.324 2.73v.002ZM.715 9.76h2.017V3.692H.715v6.069Zm0 0 2.077-8.129a1.04 1.04 0 1 1-2.08 0 1.04 1.04 0 0 1 2.08 0L.715 9.761Z"
+                                    fill="currentColor"></path>
+                            </svg></div>
+                        <div class="social-icons"><svg viewBox="0 0 12 8" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M11.303 2.064c0-.866-.702-1.567-1.567-1.567H2.391c-.866 0-1.567.701-1.567 1.567v4.2c0 .865.701 1.566 1.567 1.566h7.345c.865 0 1.567-.701 1.567-1.567v-4.2ZM5.016 5.937V1.991L8.01 3.964 5.016 5.937Z"
+                                    fill="currentColor"></path>
+                            </svg></div>
+                        <div class="social-icons"><svg viewBox="0 0 11 10" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.524 1.86a4.327 4.327 0 0 1-1.223.336c.44-.264.776-.68.936-1.178a4.307 4.307 0 0 1-1.352.518 2.128 2.128 0 0 0-3.627 1.941A6.037 6.037 0 0 1 .873 1.253a2.132 2.132 0 0 0 .66 2.843 2.139 2.139 0 0 1-.965-.266v.027a2.13 2.13 0 0 0 1.707 2.086 2.15 2.15 0 0 1-.962.037A2.128 2.128 0 0 0 3.3 7.457a4.271 4.271 0 0 1-3.15.882c.94.605 2.06.958 3.261.958 3.915 0 6.057-3.242 6.057-6.057 0-.092 0-.184-.007-.275.415-.3.776-.675 1.061-1.103l.002-.002Z"
+                                    fill="currentColor"></path>
+                            </svg></div>
+                        <div class="social-icons"><svg viewBox="0 0 12 12" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.556.522H3.69A2.991 2.991 0 0 0 .7 3.513v4.87c0 1.65 1.339 2.99 2.99 2.99h4.87c1.65 0 2.99-1.34 2.99-2.99v-4.87c0-1.651-1.34-2.99-2.99-2.99h-.003Zm2.116 7.848a2.128 2.128 0 0 1-2.128 2.128H3.701A2.128 2.128 0 0 1 1.573 8.37V3.525c0-1.175.953-2.128 2.128-2.128h4.845c1.175 0 2.128.953 2.128 2.128V8.37h-.002Z"
+                                    fill="currentColor"></path>
+                                <path
+                                    d="M6.124 3.088a2.861 2.861 0 0 0 0 5.72 2.861 2.861 0 0 0 0-5.72Zm0 4.724a1.864 1.864 0 1 1-.001-3.727 1.864 1.864 0 0 1 0 3.727Zm3.597-4.819a.64.64 0 1 1-1.28.001.64.64 0 0 1 1.28 0Z"
+                                    fill="currentColor"></path>
+                            </svg></div>
+                    </div>
+                </div>
+                <div class="mid4"><a href="#"><button>Back to top <i class="bi bi-arrow-up"></i> </button></a></div>
+            </div>
+            <div class="footer-end">
+                <div class="foot-end-top">
+                    <p>Important alerts •
+                        Privacy policy •
+                        Cookie notice •
+                        DLT registration for commercial communication •
+                        Do not disturb list •
+                        Contact us</p>
+                </div>
+                <div class="foot-end-bottom">
+                    <div class="feb-left"><img src="images/BSI-OHSAS-18001-grey.png" alt=""></div>
+                    <div class="feb-mid"><img src="images/norton-logo-removebg-preview.png" alt=""></div>
+                    <div class="feb-end">
+                        <p>2023 Airtel India. All Rights Reserved</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,310 @@
+.slide{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    
+   
+
+}
+.slide-left{
+   
+    width: 46%;
+    height: 400px;
+    background-color: rgba(0,0,0,0);
+    
+    font-family: 'Tondo', sans-serif;
+    
+}
+.heading{
+    font-size: 32px;
+    line-height: 40px;
+    position: relative;
+   
+    
+}
+.heading h4{
+    margin-bottom: 0;
+    padding-right: 0;
+    margin-left: 74px;
+    margin-top: 80px;
+}
+.description p{
+    font-size: 18px;
+    line-height: 26px;
+    position: relative;
+    margin-left: 80px;
+}
+.slide-right{
+
+    width: 54%;
+    height: 400px;
+    background-image: url("images/hero-banner-1.avif");
+    background-size: 100% 400px;
+}
+.slide-button{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 80px;
+
+}
+.button{
+    position: relative;
+    width: 100%;
+    height: 60px;
+}
+.slide-button:hover{
+    width: 127px;
+    height: 42px;
+    background-color: rgba(0, 0, 0, 0.616);
+    
+
+}
+.downarrows{
+
+    position: relative;
+    top: 26%;
+    margin-left: 80px;
+    display: flex;
+
+
+}
+.downarrows p{
+    font-size: 11px;
+    margin-top: 5px;
+
+    
+}
+#left-arrow{
+    padding-right: 40px;
+    font-size: 23px;
+}
+#right-arrow{
+    margin-left: 40px;
+    font-size: 23px;
+}
+ #right-arrow:hover{
+    font-size: 24px;
+    color: #87888a;
+}
+#left-arrow:hover{
+    font-size: 24px;
+    color: #87888a;
+
+}
+.one-six{
+   
+    padding-bottom: 10px;
+    
+    
+}
+.recharge-or-pay-bills{
+    width: 100%;
+    height: 250px;
+    background-color: #f7f7fa;
+    padding: 30px 0 40px;
+}
+.heading-recharge-or-pay{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    
+}
+.heading-recharge-or-pay h4{
+    font-size: 32px;
+    margin-top: 0;
+    
+}
+.four-buttons{
+    width: 100%;
+   
+    text-align: center;
+    padding: 40px 0 18px;
+}
+.four-buttons .button{
+    height: auto;
+    
+}
+.four-buttons .button1,.button {
+    display: flex;
+   align-items: center;
+}
+.four-buttons #button1-four-button {
+    background-color: black;
+    color: white;
+}
+.button-left svg{
+    height: 20px;
+
+}
+.four-buttons button{
+    padding: 7px 15px;
+    background-color: #e3e5ff;
+    border: none;
+    margin: 0 7px;
+    border-radius: 50px;
+}
+
+.number-input{
+    text-align: center;
+}
+.enter-number-input{
+    padding: 13px 12px;
+    width: 300px;
+    border-radius: 7px;
+    border: solid 1.5px #e3e5ff ;
+    color: #87888a;
+
+}
+.enter-number-input:hover{
+    border-color: #4e5aff5e;
+}
+
+.recharge-button{
+    text-align: center;
+    margin-top: 35px;
+    height: 45px;
+}
+.recharge-button-black{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    width: 326px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 13px 12px;
+    
+}
+.recharge-button-black:hover{
+    transform: scale(1.01);
+    background-color: rgba(0, 0, 0, 0.616);
+
+}
+.free-ribbon{
+    height: 40px;
+    background-image: linear-gradient(to right,#ff4949,var(--airtel-red));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+}
+.handphone img{
+    width: 100%;
+    height: 35px;
+}
+.free-2gb p{
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffff;
+
+
+}
+.get-app button{
+    padding: 5px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: rgb(239, 101, 101);
+    margin-left: 7px;
+    scale: 0.99;
+    
+    
+
+}
+.new-connection-box{
+    height: 280px;
+    background-color:#fff ;
+    padding: 53px 0 58px;
+
+}
+.heading-new-connection {
+    font-size: 32px;
+    text-align: center;
+}
+.heading-new-connection h4{
+    margin: 0;
+}
+.icons-new-connection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 35px;    
+}
+.icons-new-connection button{
+    padding: 15px 15px;
+    background-color: #e3e5ff;
+    border-radius: 50px;
+    border: none;
+
+}
+.icons-new-connection button svg{
+    height: 2.3em;
+    width: 2.3em;
+}
+.icons-new-connection .icons{
+    margin: 0 40px 0 40px;
+    font-size: 12px;
+    text-align: center;
+    
+}
+.switch-box{
+    width: 540px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 80px 3fr 1fr;
+    background-color: #ff4949;
+    border: 1px solid var(--airtel-red);
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.switches1 img{
+    width: auto;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+.switches{
+    justify-content: center;
+    
+}
+.switches3{
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.switches3 button{
+    font-size: 11px;
+    font-weight:bold;
+    color: #ffff;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #ffff;
+    border-radius: 16px;
+    padding: 7px 10px;
+
+}
+.switches2 h3{
+    font-size: 16px;
+    color: #ffff;
+    margin-bottom: 0;
+    margin-top: 28px;
+}
+.switches2 p{
+    font-size:12px;
+    color: #ffff;
+    margin-top: 0;
+    margin-top: 5px;
+}
+.switches2 p span{
+    font-weight: bold;
+}
